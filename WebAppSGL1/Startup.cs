@@ -8,6 +8,7 @@ namespace WebAppSGL1
     {
         public void Configuration(IAppBuilder app)
         {
+            app.MapSignalR();
             ConfigureAuth(app);
         }
     }
